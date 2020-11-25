@@ -1,0 +1,20 @@
+2020-11-26 00:23:26.9278 Info Message Template Auto Format enabled
+2020-11-26 00:23:26.9662 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-26 00:23:27.0510 Info Adding target FileTarget(Name=allfile)
+2020-11-26 00:23:27.1133 Info Validating config: TargetNames=allfile, ConfigItems=20, FilePath=D:\New folder\RTLProject\RTLProject\bin\Debug\netcoreapp2.2\nlog.config
+2020-11-26 00:24:09.4817 Info Message Template Auto Format enabled
+2020-11-26 00:24:09.4986 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-26 00:24:09.5786 Info Adding target FileTarget(Name=allfile)
+2020-11-26 00:24:09.6180 Info Validating config: TargetNames=allfile, ConfigItems=20, FilePath=D:\New folder\RTLProject\RTLProject\bin\Debug\netcoreapp2.2\nlog.config
+2020-11-26 00:33:40.0603 Info Message Template Auto Format enabled
+2020-11-26 00:33:40.0826 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-26 00:33:40.1884 Info Adding target FileTarget(Name=allfile)
+2020-11-26 00:33:40.2439 Info Validating config: TargetNames=allfile, ConfigItems=20, FilePath=D:\New folder\RTLProject\RTLProject\bin\Debug\netcoreapp2.2\nlog.config
+2020-11-26 00:35:15.7364 Info Message Template Auto Format enabled
+2020-11-26 00:35:15.7517 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-26 00:35:15.8354 Info Adding target FileTarget(Name=allfile)
+2020-11-26 00:35:15.8779 Info Validating config: TargetNames=allfile, ConfigItems=20, FilePath=D:\New folder\RTLProject\RTLProject\bin\Debug\netcoreapp2.2\nlog.config
+2020-11-26 00:36:22.3129 Info Message Template Auto Format enabled
+2020-11-26 00:36:22.3284 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-26 00:36:22.4128 Info Adding target FileTarget(Name=allfile)
+2020-11-26 00:36:22.4858 Info Validating config: TargetNames=allfile, ConfigItems=20, FilePath=D:\New folder\RTLProject\RTLProject\bin\Debug\netcoreapp2.2\nlog.config

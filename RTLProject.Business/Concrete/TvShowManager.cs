@@ -8,19 +8,20 @@ using System.Threading.Tasks;
 using RTLProject.DTO;
 using RTL.Core.Utilities.Results;
 using System.Linq;
+using Microsoft.Extensions.Logging;
 
 namespace RTLProject.Business.Concrete
 {
     public class TvShowManager : ITvShowService
     {
         private readonly ITvShowDal _tvShowDal;
-        private readonly ITvMazeHttpClient _tvMazeHttpClient;
+        private readonly ILogger<TvShowManager> _logger;       
         private readonly ICastDal _castDal;
-        public TvShowManager(ITvShowDal tvShowDal, ICastDal castDal, ITvMazeHttpClient tvMazeHttpClient)
+        public TvShowManager(ITvShowDal tvShowDal, ICastDal castDal,  ILogger<TvShowManager> logger)
         {
             _tvShowDal = tvShowDal;
-            _castDal = castDal;
-            _tvMazeHttpClient = tvMazeHttpClient;
+            _castDal = castDal;        
+            _logger = logger;
         }
 
 
@@ -34,6 +35,7 @@ namespace RTLProject.Business.Concrete
             catch (Exception ex)
             {
                 string err = ex.Message;
+                _logger.LogWarning(err);
                 return new ErrorDataResult<List<TvShow>>(err);
             }
 
@@ -44,17 +46,17 @@ namespace RTLProject.Business.Concrete
             foreach (var item in castModel)
             {
                 var castEntity = _castDal.Get(c => c.Id == item.Person.Id);
-                if(castEntity == null)
+                if (castEntity == null)
                 {
                     var cast = new Cast()
                     {
-                        Birthday =item.Person.Birthday,
+                        Birthday = item.Person.Birthday,
                         Id = item.Person.Id,
                         Name = item.Person.Name,
                         TvShowId = tvShowId
                     };
                     await _castDal.AddAsync(cast);
-                }              
+                }
             }
         }
 
