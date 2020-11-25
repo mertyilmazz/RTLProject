@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RTLProject.WebApi", "RTLProject\RTLProject.WebApi.csproj", "{B2A9FE97-8D8F-4DCD-8BF7-2043D5857FE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RTLProject.Business", "RTLProject.Business\RTLProject.Business.csproj", "{30C94045-B56A-4B51-8335-D7A0F088EA83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RTLProject.DataAccess", "RTLProject.DataAccess\RTLProject.DataAccess.csproj", "{C4208869-6D83-4038-B22E-5756FF5008D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RTLProject.Entities", "RTLProject.Entities\RTLProject.Entities.csproj", "{B232246A-CEC4-485D-9013-570369323380}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RTLProject.Core", "RTLProject.Core\RTLProject.Core.csproj", "{139A8F9A-698B-44DF-83E2-1F61488CABB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RTLProject.DTO", "RTLProject.DTO\RTLProject.DTO.csproj", "{85C33AE9-2D7E-4726-B120-9BE34933AB20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DbSolution", "DbSolution", "{0D5A5D48-3396-4F15-BB8E-0DA8C3B7D17E}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Mert Yılmaz\Desktop\rtl.sql = C:\Users\Mert Yılmaz\Desktop\rtl.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2A9FE97-8D8F-4DCD-8BF7-2043D5857FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A9FE97-8D8F-4DCD-8BF7-2043D5857FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A9FE97-8D8F-4DCD-8BF7-2043D5857FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A9FE97-8D8F-4DCD-8BF7-2043D5857FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C94045-B56A-4B51-8335-D7A0F088EA83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C94045-B56A-4B51-8335-D7A0F088EA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C94045-B56A-4B51-8335-D7A0F088EA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C94045-B56A-4B51-8335-D7A0F088EA83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4208869-6D83-4038-B22E-5756FF5008D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4208869-6D83-4038-B22E-5756FF5008D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4208869-6D83-4038-B22E-5756FF5008D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4208869-6D83-4038-B22E-5756FF5008D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B232246A-CEC4-485D-9013-570369323380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B232246A-CEC4-485D-9013-570369323380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B232246A-CEC4-485D-9013-570369323380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B232246A-CEC4-485D-9013-570369323380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139A8F9A-698B-44DF-83E2-1F61488CABB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139A8F9A-698B-44DF-83E2-1F61488CABB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139A8F9A-698B-44DF-83E2-1F61488CABB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139A8F9A-698B-44DF-83E2-1F61488CABB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C33AE9-2D7E-4726-B120-9BE34933AB20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C33AE9-2D7E-4726-B120-9BE34933AB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C33AE9-2D7E-4726-B120-9BE34933AB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C33AE9-2D7E-4726-B120-9BE34933AB20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05970833-D5D7-4750-A4DC-1B2CD0E8A762}
+	EndGlobalSection
+EndGlobal
