@@ -30,7 +30,7 @@ namespace RTLProject.DTO
         {
             public long Id { get; set; }          
             public string Name { get; set; }
-            public DateTimeOffset? Birthday { get; set; }          
+            public DateTime? Birthday { get; set; }          
 
         }
     }

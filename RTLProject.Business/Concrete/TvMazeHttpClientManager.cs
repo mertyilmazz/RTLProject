@@ -55,14 +55,7 @@ namespace RTLProject.Business.Concrete
                             if (tvMazeData.Embedded != null)
                             {
                                 if (tvMazeData.Embedded.Cast.Count > 0)
-                                {
-                                    foreach (var cast in tvMazeData.Embedded.Cast)
-                                    {
-                                        var castEntity = _castDal.Get(c => c.Id == cast.Person.Id);
-                                        if (castEntity == null)
-                                            await _tvShowService.AddCast(tvMazeData.Embedded.Cast,tvMazeData.Id);
-                                    }
-                                }
+                                    await _tvShowService.AddCast(tvMazeData.Embedded.Cast, tvMazeData.Id);
                             }
                         }
                         else

@@ -43,14 +43,18 @@ namespace RTLProject.Business.Concrete
         {
             foreach (var item in castModel)
             {
-                var cast = new Cast()
+                var castEntity = _castDal.Get(c => c.Id == item.Person.Id);
+                if(castEntity == null)
                 {
-                    Birthday =Convert.ToDateTime(item.Person.Birthday),
-                    Id = item.Person.Id,
-                    Name = item.Person.Name,
-                    TvShowId = tvShowId
-                };
-                await _castDal.AddAsync(cast);
+                    var cast = new Cast()
+                    {
+                        Birthday =item.Person.Birthday,
+                        Id = item.Person.Id,
+                        Name = item.Person.Name,
+                        TvShowId = tvShowId
+                    };
+                    await _castDal.AddAsync(cast);
+                }              
             }
         }
 

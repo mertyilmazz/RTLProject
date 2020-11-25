@@ -7,7 +7,7 @@ namespace RTL.DataAccess.Concrete.EntityFramework.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=.;Database=RTL;User Id=sa;Password=test;");
+            optionsBuilder.UseSqlServer(@"Server=.;Database=RTL;User Id=sa;Password=.;");
         }
 
         public DbSet<TvShow> TvShow { get; set; }

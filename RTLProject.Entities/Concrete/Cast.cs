@@ -8,7 +8,7 @@ namespace RTLProject.Entities.Concrete
     {
         public long Id { get; set; }
         public string Name { get; set; }
-        public DateTime Birthday { get; set; }
+        public DateTime? Birthday { get; set; }
 
         [ForeignKey("TvShow")]
         public long TvShowId { get; set; }
